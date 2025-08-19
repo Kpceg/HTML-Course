@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Layout Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    header, footer {
+      background: #333;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav {
+      background: #444;
+      color: white;
+      padding: 0.5em;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    main {
+      flex: 2;
+      padding: 1em;
+      background: #f4f4f4;
+    }
+
+    aside {
+      flex: 1;
+      padding: 1em;
+      background: #ddd;
+    }
+
+    footer {
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Website</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a> |
+    <a href="#">About</a> |
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <main>
+      <section>
+        <h2>Main Section</h2>
+        <p>This is the main content of the page.</p>
+      </section>
+    </main>
+
+    <aside>
+      <h2>Sidebar</h2>
+      <p>Some extra info or links.</p>
+    </aside>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+
+</body>
+</html>

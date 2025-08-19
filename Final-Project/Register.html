@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <Title>
+            Registration Form for Vicky Cheng
+        </Title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <script src="bootstrap.min.js"></script>
+        <style>
+
+            body {
+            margin: 0;
+            padding: 0;
+            background-color: #fdf5e6;
+            }
+
+            .content {
+            background-color: #fdf5e6;
+            display: flex;
+            justify-content: center;
+            padding-top: 80px; /* controls how close to top it appears */
+            }
+
+            .register-box {
+            box-shadow: 1px 2px 8px grey;
+            width: 100%;
+            max-width: 400px;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+            .home {
+                margin-left: 150px;
+                margin-top: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="container mb-4">
+            <a href="home.html" class="btn btn-danger">
+            <i class="bi bi-house-door-fill"></i> Home
+            </a>
+        </div>
+
+        <div class=" content d-flex align-items-center justify-contents-center">
+        <div class="register-box">
+            <h3 class="text-center fw-bold">Registration</h3>
+            <form>
+                <div class="p-2">
+                    <label for="usrname" class="form-label">Username:</label>
+                    <input type="text" id="usrname" class="form-control rounded" placeholder="Username">
+                </div>
+                <div class="p-2">
+                    <label for="em" class="form-label">Password:</label>
+                    <input type="email" id="em" class="form-control rounded" placeholder="Email-ID">
+                </div>
+                <div class="p-2">
+                    <label for="pwd" class="form-label">Password:</label>
+                    <input type="password" id="pwd" class="form-control rounded">
+                </div>
+                <div class="p-2">
+                    <label for="cfmpwd" class="form-label">Confirm Password:</label>
+                    <input type="password" id="cfmpwd" class="form-control rounded">
+                </div>
+                <div class="p-2">
+                    <button type="submit" class="btn btn-primary rounded">Login</button>
+                </div>
+                <div class="p-2">
+                    <p>Already a User? <a href="Login.html"> Login </a></p>
+                </div>
+                
+            </form>
+        </div>
+        </div>
+    </body>
+</html>

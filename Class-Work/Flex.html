@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Flex Class Work
+        </title>
+        <style>
+            
+            .flex-container {
+                display:flex;
+                background-color: aqua;
+                padding:10px;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 100px;
+                align-items: center;
+                flex-wrap: wrap-reverse;
+                flex-flow:row-reverse wrap; /* This property combines both flex direection and flex wrap*/
+            }
+
+        
+            .flex-container div {
+                background-color: orange;
+                padding: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+        </div>
+    </body>
+</html>
